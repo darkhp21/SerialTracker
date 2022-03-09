@@ -1,0 +1,24 @@
+#body{
+    background-color: black;
+}
+h1{
+    color: white;
+}
+button{
+    width: 200px;
+    height: 50px;
+    font-size: 30px;
+    background-color: aqua;
+    border: none;
+    border-radius: 30px;
+}
+button:hover{
+    background-color: #191919;
+    color: white;
+    border: red, 10px;
+}
+button::after{
+    background-color: red;
+    color: white;
+
+}
